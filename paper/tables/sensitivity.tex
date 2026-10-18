@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Sensitivity analysis: mean loss-reduction share over 1--5 fixes when one attacker-model parameter is halved or raised by 50\% (150 architectures each).}
+\label{tab:sens}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrr}
+\toprule
+Parameter & Change & Severity & Risk & Path & Oracle \\
+\midrule
+flat-zone lateral move & $\times$0.5 & 0.581 & 0.431 & 0.494 & 0.774 \\
+flat-zone lateral move & $\times$1.5 & 0.567 & 0.463 & 0.530 & 0.789 \\
+authenticated hop & $\times$0.5 & 0.574 & 0.451 & 0.513 & 0.805 \\
+authenticated hop & $\times$1.5 & 0.570 & 0.449 & 0.520 & 0.766 \\
+unauthenticated hop & $\times$0.5 & 0.614 & 0.411 & 0.501 & 0.813 \\
+unauthenticated hop & $\times$1.5 & 0.532 & 0.467 & 0.516 & 0.760 \\
+gateway without WAF & $\times$0.5 & 0.594 & 0.424 & 0.469 & 0.799 \\
+gateway without WAF & $\times$1.5 & 0.558 & 0.461 & 0.537 & 0.785 \\
+missing identity & $\times$0.5 & 0.584 & 0.451 & 0.519 & 0.792 \\
+missing identity & $\times$1.5 & 0.563 & 0.449 & 0.514 & 0.775 \\
+subscription-wide identity & $\times$0.5 & 0.546 & 0.431 & 0.517 & 0.793 \\
+subscription-wide identity & $\times$1.5 & 0.580 & 0.456 & 0.516 & 0.781 \\
+public data store & $\times$0.5 & 0.563 & 0.509 & 0.557 & 0.784 \\
+public data store & $\times$1.5 & 0.577 & 0.420 & 0.495 & 0.785 \\
+unencrypted impact & $\times$0.5 & 0.561 & 0.453 & 0.501 & 0.790 \\
+unencrypted impact & $\times$1.5 & 0.578 & 0.451 & 0.524 & 0.785 \\
+\bottomrule
+\end{tabular}
+\end{table}

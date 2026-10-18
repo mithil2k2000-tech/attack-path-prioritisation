@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Share of the achievable loss reduction realised by each prioritisation strategy across 600 synthetic architectures (mean $\pm$ 95\% CI). The last column is the mean paired difference in the 1--5 mean against rule severity, with a two-sided Wilcoxon signed-rank test.}
+\label{tab:main}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Strategy & After 1 fix & After 3 fixes & Mean over 1--5 & vs.~severity \\
+\midrule
+Random order & 0.175 $\pm$ 0.010 & 0.488 $\pm$ 0.021 & 0.437 $\pm$ 0.016 & -0.188 ($p<0.001$) \\
+Risk model (original) & 0.265 $\pm$ 0.021 & 0.522 $\pm$ 0.028 & 0.475 $\pm$ 0.021 & -0.151 ($p<0.001$) \\
+Attack-path aware & 0.319 $\pm$ 0.022 & 0.628 $\pm$ 0.025 & 0.575 $\pm$ 0.019 & -0.050 ($p<0.001$) \\
+Rule severity & 0.292 $\pm$ 0.025 & 0.707 $\pm$ 0.024 & 0.625 $\pm$ 0.019 & -- \\
+Risk model (exposure-corrected) & 0.423 $\pm$ 0.024 & 0.801 $\pm$ 0.019 & 0.726 $\pm$ 0.016 & +0.101 ($p<0.001$) \\
+Model-guided, $\pm$50\% misspecified & 0.525 $\pm$ 0.020 & 0.860 $\pm$ 0.013 & 0.795 $\pm$ 0.012 & +0.170 ($p<0.001$) \\
+Model-guided, true parameters & 0.554 $\pm$ 0.019 & 0.873 $\pm$ 0.012 & 0.811 $\pm$ 0.011 & +0.186 ($p<0.001$) \\
+\bottomrule
+\end{tabular}
+\end{table*}
