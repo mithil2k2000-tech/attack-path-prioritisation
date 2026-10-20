@@ -1,7 +1,9 @@
 # Does attack-path awareness help prioritise cloud security findings?
 
+📄 **Paper (PDF): [attack-path-prioritisation.pdf](attack-path-prioritisation.pdf)**
+
 Code, data and paper for an empirical study of how to order design-level security findings from a
-threat-modelling-as-code tool. Paper: [`paper/main.pdf`](paper/main.pdf).
+threat-modelling-as-code tool.
 
 ## The question
 
