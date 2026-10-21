@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Does Attack-Path Awareness Help Prioritise Cloud Security Findings? An Empirical Study on 600 Synthetic Architectures"
+type: software
+authors:
+  - family-names: Nagabathula
+    given-names: Mithil
+    affiliation: University of East London
+    email: mithilnishu2000@gmail.com
+repository-code: "https://github.com/mithil2k2000-tech/attack-path-prioritisation"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-21"
+keywords:
+  - "cloud security"
+  - "attack graphs"
+  - "threat modelling"
+  - "vulnerability prioritisation"
+preferred-citation:
+  type: report
+  title: "Does Attack-Path Awareness Help Prioritise Cloud Security Findings? An Empirical Study on 600 Synthetic Architectures"
+  authors:
+    - family-names: Nagabathula
+      given-names: Mithil
+      affiliation: University of East London
+  institution:
+    name: University of East London
+  year: 2026
+  month: 10
+  url: "https://github.com/mithil2k2000-tech/attack-path-prioritisation/blob/main/attack-path-prioritisation.pdf"
+  notes: "Preprint; not peer reviewed."
