@@ -1,6 +1,6 @@
 # Does attack-path awareness help prioritise cloud security findings?
 
-📄 **Paper (PDF): [attack-path-prioritisation.pdf](attack-path-prioritisation.pdf)**
+📄 **Paper (PDF): [attack-path-prioritisation.pdf](attack-path-prioritisation.pdf)** · [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23593004.svg)](https://doi.org/10.5281/zenodo.23593004)
 
 Code, data and paper for an empirical study of how to order design-level security findings from a
 threat-modelling-as-code tool.
